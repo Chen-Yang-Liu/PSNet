@@ -1,6 +1,3 @@
-# PSNet
-Progressive Scale-aware Network for Remote sensing Image Change Captioning
-
 <div align="center">
 
 <h1><a href="https://ieeexplore.ieee.org/document/10283451">Progressive Scale-aware Network for Remote sensing Image Change Captioning</a></h1>
@@ -39,15 +36,15 @@ python ./eval.py --encoder_image vit_b_32 --data_folder ./data/ --model_path ./c
 ```
 ## Citation: 
 ```
-@ARTICLE{9934924,
-  author={Liu, Chenyang and Zhao, Rui and Chen, Hao and Zou, Zhengxia and Shi, Zhenwei},
-  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Remote Sensing Image Change Captioning With Dual-Branch Transformers: A New Method and a Large Scale Dataset}, 
-  year={2022},
-  volume={60},
+@INPROCEEDINGS{10283451,
+  author={Liu, Chenyang and Yang, Jiajun and Qi, Zipeng and Zou, Zhengxia and Shi, Zhenwei},
+  booktitle={IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium}, 
+  title={Progressive Scale-Aware Network for Remote Sensing Image Change Captioning}, 
+  year={2023},
+  volume={},
   number={},
-  pages={1-20},
-  doi={10.1109/TGRS.2022.3218921}}
+  pages={6668-6671},
+  doi={10.1109/IGARSS52108.2023.10283451}}
 ```
 
 
