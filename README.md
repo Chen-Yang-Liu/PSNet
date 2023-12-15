@@ -9,7 +9,7 @@
 
 ## Welcome to our repository! 
 
-This repository contains the PyTorch implementation of our PromptCC model in the paper: "Progressive Scale-aware Network for Remote sensing Image Change Captioning". 
+This repository contains the PyTorch implementation of the paper: "Progressive Scale-aware Network for Remote sensing Image Change Captioning". 
 
 For more information, please see our published paper in [[IEEE]([https://ieeexplore.ieee.org/document/10271701](https://ieeexplore.ieee.org/document/10283451))]  ***(Accepted by IGARSS 2023)***
 
