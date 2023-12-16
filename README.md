@@ -20,7 +20,7 @@ Then preprocess dataset as follows:
 python create_input_files.py --karpathy_json_path path/Levir-CC-dataset/LevirCCcaptions.json --image_folder path/Levir-CC-dataset/images 
 ```
 After that, you can find some resulted files in `./data/`. 
-Of course, you can use our provided resulted  files directly in [[Hugging face](https://huggingface.co/lcybuaa/PSNet/tree/main)].
+Of course, you can use our provided resulted  files directly in [[Hugging face](https://huggingface.co/datasets/lcybuaa/PSNet/tree/main)].
 
 
 ### Train
@@ -30,7 +30,7 @@ python ./train.py --encoder_image vit_b_32 --data_folder ./data/ --savepath ./ch
 ```
 
 ### Evaluate
-You can download our pretrained model in [[Hugging face](https://huggingface.co/lcybuaa/PSNet/tree/main)]. Put the model in `./checkpoints/5-times/`, then run
+You can download our pretrained model in [[Hugging face](https://huggingface.co/datasets/lcybuaa/PSNet/tree/main)]. Put the model in `./checkpoints/5-times/`, then run
 ```python
 python ./eval.py --encoder_image vit_b_32 --data_folder ./data/ --model_path ./checkpoints/5-times/
 ```
