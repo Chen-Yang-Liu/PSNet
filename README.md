@@ -34,6 +34,7 @@ You can download our pretrained model in [[Hugging face](https://huggingface.co/
 ```python
 python ./eval.py --encoder_image vit_b_32 --data_folder ./data/ --model_path ./checkpoints/5-times/
 ```
+We recommend training 5 times to get an average score.
 ## Citation: 
 ```
 @INPROCEEDINGS{10283451,
